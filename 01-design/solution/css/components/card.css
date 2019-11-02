@@ -1,0 +1,32 @@
+.card {
+  background-color: white;
+  width:100%;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.card .card-info {
+  color: #7B7879;
+  padding:5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card span {
+  display: flex;
+  align-items: center;
+}
+
+.card h3 {
+  padding:5px;
+  margin: 2px 0px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width:20px;
+  padding: 0px 5px;
+}
