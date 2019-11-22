@@ -1,0 +1,84 @@
+.card{
+  background-color: #fff;
+  width: 100%;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 1px 2px 0 rgba(0,0,0,.1);
+  margin:50px;
+}
+
+.card:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+
+  background-color: #eee;
+}
+
+
+.card-story{
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+.card .title{
+  width: 100%；
+  font-size: 14px;
+  padding-left: 5px;
+  margin: 10px;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card .user-info{
+    display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   margin: 5px;
+}
+
+.card .user-avatar{
+  width: 28px;
+  height: 28px;
+  margin: 10px;
+  object-fit: cover;
+  border-radius:50%;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.card .user-name{
+  display: inline;
+  font-size: 3px;
+  margin: 5px;
+}
+
+.social-info{
+  display: flex;
+  color: grey;
+  font-size: 5px;
+  align-items: center;
+}
+
+.social-info > i{
+  display: inline-block;
+  font-size: 20px;
+}
+
+.social-count{
+  padding-right: 10px;
+  align-items: center;
+  padding-left: 10px;
+  display: inline-block;
+}

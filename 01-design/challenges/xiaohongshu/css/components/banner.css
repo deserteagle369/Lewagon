@@ -1,0 +1,38 @@
+.banner{
+  margin: 0px;
+
+}
+
+.container{
+  margin: 20px 20px 0 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .bar{
+  display: none;
+}
+
+.logo {
+  /*display: inline-block;*/
+}
+
+.menu{
+  /*display: inline-block;*/
+  margin: 0px 20px 0 0px;
+}
+
+.menu-link{
+  display: inline-block;
+  font-size: 20px;
+  color:black;
+  padding: 15px;
+  margin: 5px;
+}
+
+.menu-link:hover{
+  color: red;
+  text-decoration:underline;
+}
