@@ -1,0 +1,21 @@
+h1{
+  color:#494ca2;
+  font-family:'Lobster';
+  text-align: center;
+}
+body{
+  color:#8186d5;
+  font-family: anton;
+  font-size: 50px;
+}
+
+a{
+  color: #c6cbef;
+  font-family: Poppins;
+  text-decoration:blink;
+}
+a:hover{
+  background-color:#c6cbef;
+  color:white;
+  box-shadow: 3px 3px 0px #e3e7f1
+}

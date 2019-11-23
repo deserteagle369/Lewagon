@@ -1,0 +1,30 @@
+/* TODO: design your flexbox layout with a sticky map */
+
+/* We just give you a Gmaps with random width/height */
+#map {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+.content{
+  display: flex;
+}
+
+.cards{
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+@media(min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media(min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
