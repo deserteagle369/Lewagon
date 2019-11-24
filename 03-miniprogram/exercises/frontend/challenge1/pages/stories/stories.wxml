@@ -1,0 +1,16 @@
+<view class="banner" style="height: 100px; background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://www.lewagon.com/api/v1/cities/shenzhen/cover?width=1200);">
+
+  <view class="container">
+    <view class="h1">{{title}}</view>
+    <view class="p">{{description}}</view>
+    <navigator class="btn btn-flat" url="#">{{cta}}</navigator>
+  </view>
+</view>
+<view class="card-product">
+  <image url="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg"></image>
+  <view class="card-product-infos">
+    <view class="h2">{{title}}</view>
+    <view class="p">{{description}}</view>
+  </view>
+</view>
+<button bindtap="clickMe">{{text}}</button>
